@@ -1,4 +1,7 @@
 import tkinter as tk
+from tk_bin_overview import open_tk_bin_overview_window
+from tk_settings import open_tk_settings_window
+from tk_bin_manager import open_tk_bin_manager_window
 
 class burp_app:
 	def __init__(self, tk_root):
